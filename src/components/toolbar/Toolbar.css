@@ -1,0 +1,30 @@
+.toolbar {
+  flex: 1;
+  flex-direction: column;
+}
+
+.tool-btn {
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  border: 1px solid #000;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  margin: 5px auto;
+}
+
+.tool-btn svg {
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.tool-btn:hover, .tool-btn.selected {
+  background: rgba(255,255,255,1);
+}

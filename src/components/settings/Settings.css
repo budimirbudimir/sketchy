@@ -1,0 +1,25 @@
+.settings {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background: rgb(182, 172, 172);
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.zoom {
+  flex: 1;
+}
+
+.brushSize {
+  flex: 1;
+  flex-direction: row;
+}
+
+.brushSize > div {
+  display: flex;
+}
+
+.max-150 {
+  max-width: 150px;
+}

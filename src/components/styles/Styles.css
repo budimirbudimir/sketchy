@@ -1,0 +1,16 @@
+.styles {
+  flex: 2;
+}
+
+.chrome-picker {
+  box-shadow: none !important;
+}
+.chrome-picker > div:nth-child(1) {
+  height: 100px;
+}
+.chrome-picker > div:nth-child(2) {
+  background: #eee;
+}
+.chrome-picker > div:nth-child(2) > div:nth-child(2) {
+  display: none !important;
+}

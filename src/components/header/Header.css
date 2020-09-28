@@ -1,0 +1,38 @@
+.header {
+  flex: 1;
+  text-align: center;
+  background: rgb(105, 80, 80);
+  color: #FFF;
+}
+
+.nav {
+  display: block;
+}
+
+.nav a {
+  font-weight: 700;
+  display: inline-block;
+  min-width: 60px;
+  border-bottom: 2px solid #FFF;
+  line-height: 2;
+  color: #eee;
+  font-style: normal;
+  text-decoration-line: none;
+  margin: 0 5px 10px;
+  font-size: 0.875em;
+}
+
+.nav a:hover {
+  opacity: 0.6;
+  color: skyblue !important;
+  border-bottom: 2px solid skyblue !important;
+}
+
+.nav a > svg {
+  margin-bottom: -5px;
+}
+
+.activeNavLink {
+  color: skyblue !important;
+  border-bottom: 2px solid skyblue !important;
+}

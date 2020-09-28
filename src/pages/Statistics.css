@@ -1,0 +1,33 @@
+.statistics {
+  flex: 7;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+
+.dataset {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.statlines {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.charts {
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.groups {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
