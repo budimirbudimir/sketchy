@@ -1,7 +1,7 @@
 import { configureStore, Action } from '@reduxjs/toolkit'
 import thunk, { ThunkAction } from 'redux-thunk'
 import { persistStore, persistReducer } from 'redux-persist'
-import storage from 'redux-persist/lib/storage' // defaults to localStorage for web
+import storage from 'redux-persist/lib/storage'
 
 import rootReducer, { RootState } from './rootReducer'
 
@@ -24,5 +24,4 @@ export type AppDispatch = typeof store.dispatch
 
 export type AppThunk = ThunkAction<void, RootState, unknown, Action<string>>
 
-// export default store
 export const persistor = persistStore(store)

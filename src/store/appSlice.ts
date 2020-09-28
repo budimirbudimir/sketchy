@@ -67,12 +67,6 @@ interface RootState {
   app: AppState
 }
 
-// HELPERS
-// export async function getComments(url: string) {
-//   const data = await setTimeout(() => 'ccc', 2000)
-//   return data
-// }
-
 // SLICE
 const comments = createSlice({
   name: 'comments',
@@ -121,17 +115,6 @@ export const {
   setError,
 } = comments.actions
 export default comments.reducer
-
-// THUNKS
-// export const fetchComments = (issue: Issue): AppThunk => async dispatch => {
-//   try {
-//     dispatch(getCommentsStart())
-//     const comments = await getComments(issue.comments_url)
-//     dispatch(getCommentsSuccess({ issueId: issue.number, comments }))
-//   } catch (err) {
-//     dispatch(getCommentsFailure(err))
-//   }
-// }
 
 // SELECTORS
 export const selectSaveData = (state: RootState) => state.app.saveData;

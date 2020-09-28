@@ -1,8 +1,8 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 import classnames from 'classnames'
 
 import { BiPencil } from 'react-icons/bi';
-import { useDispatch, useSelector } from 'react-redux'
 import { selectTool, setTool } from '../../store/appSlice'
 
 const Pen = () => {

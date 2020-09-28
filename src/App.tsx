@@ -1,8 +1,10 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from "react-router-dom"
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
 import Header from './components/header/Header'
 import Workspace from './pages/Workspace'
 import Statistics from './pages/Statistics'
+
 import './App.css'
 
 const App = () => {
